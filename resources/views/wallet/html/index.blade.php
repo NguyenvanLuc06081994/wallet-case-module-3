@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon icon -->
+    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon.png">
     <title>Admin Pro Admin Template - The Ultimate Bootstrap 4 Admin Template</title>
     <base href="{{asset(' ')}}">
