@@ -11,500 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d77729e-c04c-4785-9066-73e113e0e636" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/Http/Middleware/TrustHosts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/config/cors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/resources/views/product/add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/resources/views/product/detail.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/resources/views/product/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/resources/views/product/list.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CRUD-AJAX/webpack.mix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DemoLinhTinh/demo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Laravel-ajax-Jquery---CRUD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mobile-Shope/database/migrations/2020_08_16_084647_create_table_categories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Mobile-Shope/database/migrations/2020_08_16_084855_create_table_products.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.styleci.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustHosts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/cors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/big/img1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/custom-select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/logo-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/logo-text.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/users/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/users/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/users/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/users/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/users/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/users/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/users/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/users/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/users/d1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/users/d2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/users/d3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/users/d4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/users/d5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/users/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/bootstrap/js/popper.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/c3-master/c3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/c3-master/c3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-js/dist/chartist-init.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-js/dist/chartist-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-js/dist/chartist.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-js/dist/chartist.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-js/dist/chartist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-js/dist/chartist.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-js/dist/chartist.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-js/dist/chartist.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-js/dist/scss/chartist.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-js/dist/scss/settings/_chartist-settings.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/Gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/dist/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/dist/chartist-plugin-tooltip.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/src/css/chartist-plugin-tooltip.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/src/css/chartist-plugin-tooltip.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/src/scripts/chartist-plugin-tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/src/scss/chartist-plugin-tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/tasks/aliases.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/tasks/clean.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/tasks/copy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/tasks/jasmine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/tasks/jshint.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/tasks/sass.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/tasks/uglify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/tasks/umd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/test/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/test/runner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/chartist-plugin-tooltip-master/test/spec/spec-tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/d3/API.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/d3/CHANGES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/d3/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/d3/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/d3/d3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/d3/d3.min-v4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/d3/d3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/gmaps.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/gmaps.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/jquery.gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/lib/gmaps.controls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/lib/gmaps.core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/lib/gmaps.events.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/lib/gmaps.geofences.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/lib/gmaps.geometry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/lib/gmaps.layers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/lib/gmaps.map_types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/lib/gmaps.markers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/lib/gmaps.native_extensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/lib/gmaps.overlays.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/lib/gmaps.routes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/lib/gmaps.static.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/lib/gmaps.streetview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/lib/gmaps.styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/gmaps/lib/gmaps.utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/perfect-scrollbar/css/perfect-scrollbar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/perfect-scrollbar/js/perfect-scrollbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/colors/default-dark.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/icons/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/icons/font-awesome/old/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/icons/simple-line-icons/css/simple-line-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/icons/themify-icons/themify-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pages/common.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pages/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pages/error-pages.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pages/form-pages.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pages/google-vector-map.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pages/icon-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pages/other-pages.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pages/pages.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pages/pagination.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pages/perfect-scrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/pages/table-pages.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/spinners.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/perfect-scrollbar.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/sidebarmenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/waves.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/colors/default-dark.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/fonts/fontawesome-webfont-old.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/less/extras.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/less/spinning.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/scss/_extras.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/scss/_spinning.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/old/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-arrows-10.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-arrows-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-arrows-10.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-arrows-10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-basic-10.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-basic-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-basic-10.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-basic-10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-basic-elaboration-10.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-basic-elaboration-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-basic-elaboration-10.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-basic-elaboration-10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-ecommerce-10.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-ecommerce-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-ecommerce-10.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-ecommerce-10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-music-10.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-music-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-music-10.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-music-10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-software-10.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-software-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-software-10.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-software-10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-weather-10.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-weather-10.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-weather-10.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/fonts/linea-weather-10.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/linea.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/linea.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/linea-icons/linea.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/material-design-iconic-font/css/material-design-iconic-font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/material-design-iconic-font/css/material-design-iconic-font.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/material-design-iconic-font/css/materialdesignicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/simple-line-icons/css/simple-line-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/simple-line-icons/fonts/Simple-Line-Icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/simple-line-icons/fonts/Simple-Line-Icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/simple-line-icons/fonts/Simple-Line-Icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/simple-line-icons/fonts/Simple-Line-Icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/simple-line-icons/fonts/Simple-Line-Icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/simple-line-icons/less/simple-line-icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/simple-line-icons/scss/simple-line-icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/themify-icons/fonts/themify.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/themify-icons/fonts/themify.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/themify-icons/fonts/themify.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/themify-icons/fonts/themify.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/themify-icons/ie7/ie7.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/themify-icons/ie7/ie7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/themify-icons/themify-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/icons/themify-icons/themify-icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/pages/button-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/pages/common.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/pages/dashboard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/pages/error-pages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/pages/form-pages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/pages/google-vector-map.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/pages/icon-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/pages/other-pages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/pages/pages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/pages/pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/pages/perfect-scrollbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/pages/table-pages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/pages/widget-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/prepros-6.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/sidebar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/variable.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/widgets/activity.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/widgets/blog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/widgets/calendar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/widgets/carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/widgets/chat-widget.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/widgets/comment.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/widgets/common-widget.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/widgets/contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/widgets/feed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/widgets/msg-box.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/widgets/profile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/widgets/social.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/widgets/steamline.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/widgets/to-do.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/widgets/topbar-mail.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/widgets/weather-widget.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/scss/widgets/widgets.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/web.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/wallet/add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/html.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/html.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../C0520G1-demo-laravel" beforeDir="false" afterPath="$PROJECT_DIR$/../C0520G1-demo-laravel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD-AJAX/resources/views/product/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD-AJAX/resources/views/product/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD-AJAX/resources/views/product/detail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD-AJAX/resources/views/product/detail.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD-AJAX/resources/views/product/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD-AJAX/resources/views/product/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD-AJAX/resources/views/product/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD-AJAX/resources/views/product/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD-AJAX/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../CRUD-AJAX/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CaseStudy-Module2-LibraryManager" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy-Module2-LibraryManager" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CaseStudy-Module3" beforeDir="false" afterPath="$PROJECT_DIR$/../CaseStudy-Module3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CaseStudyShop" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DemoLinhTinh/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoLinhTinh/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoLinhTinh/demo.php" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoLinhTinh/demo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DemoLinhTinh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoLinhTinh/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mobile-Shope/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Mobile-Shope/app/Providers/AuthServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mobile-Shope/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Mobile-Shope/app/User.php" afterDir="false" />
@@ -514,11 +34,96 @@
       <change beforePath="$PROJECT_DIR$/../Mobile-Shope/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Mobile-Shope/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mobile-Shope/config/queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Mobile-Shope/config/queue.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mobile-Shope/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Mobile-Shope/config/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile-Shope/database/migrations/2020_08_16_084647_create_table_categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Mobile-Shope/database/migrations/2020_08_16_084647_create_table_categories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mobile-Shope/database/migrations/2020_08_16_084855_create_table_products.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Mobile-Shope/database/migrations/2020_08_16_084855_create_table_products.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mobile-Shope/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Mobile-Shope/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mobile-Shope/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Mobile-Shope/resources/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mobile-Shope/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../Mobile-Shope/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Practice-Again-At-Home/ProjectJson/src/Model/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice-Again-At-Home/ProjectJson/src/Model/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ProjectJSON2/src/Model/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ProjectJSON2/src/Model/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/.styleci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/Console/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/Exceptions/Handler.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/Http/Controllers/Controller.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/Http/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/Http/Middleware/Authenticate.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/Http/Middleware/CheckForMaintenanceMode.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/Http/Middleware/EncryptCookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/Http/Middleware/TrimStrings.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/Http/Middleware/TrustHosts.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/Http/Middleware/TrustProxies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/Providers/AppServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/Providers/AuthServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/Providers/BroadcastServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/Providers/EventServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/Providers/RouteServiceProvider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/artisan" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/bootstrap/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/bootstrap/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/config/app.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/config/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/config/broadcasting.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/config/cache.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/config/cors.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/config/database.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/config/filesystems.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/config/hashing.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/config/logging.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/config/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/config/queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/config/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/config/session.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/config/view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/database/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/database/factories/UserFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/database/seeds/DatabaseSeeder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/phpunit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/public/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/public/web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/resources/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/resources/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/resources/lang/en/auth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/resources/lang/en/pagination.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/resources/lang/en/passwords.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/resources/lang/en/validation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/resources/sass/app.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/routes/api.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/routes/channels.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/routes/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/routes/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/storage/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/storage/app/public/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/storage/framework/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/storage/framework/cache/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/storage/framework/cache/data/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/storage/framework/sessions/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/storage/framework/testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/storage/framework/views/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/storage/logs/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/tests/CreatesApplication.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/tests/TestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Wallet-CaseStudy/webpack.mix.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Web-shopping" beforeDir="false" afterPath="$PROJECT_DIR$/../Web-shopping" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../laracom/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../laracom/.travis.yml" beforeDir="false" />
@@ -1087,6 +692,7 @@
       <change beforePath="$PROJECT_DIR$/../manage-customer/tests/TestCase.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../manage-customer/tests/Unit/ExampleTest.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../manage-customer/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../money-manager-with-laravel" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../product/.editorconfig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../product/.env.example" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../product/.gitattributes" beforeDir="false" />
@@ -3027,6 +2633,7 @@
       <change beforePath="$PROJECT_DIR$/../product/tests/TestCase.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../product/tests/Unit/ExampleTest.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../product/webpack.mix.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tahoangbinh.stag" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -3154,16 +2761,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mobile-Shope" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/income" />
       <recent name="$PROJECT_DIR$/public/assets" />
       <recent name="$PROJECT_DIR$/resources/views/wallet" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunManager">
@@ -3182,7 +2790,7 @@
       <updated>1598080494920</updated>
       <workItem from="1598080496193" duration="2975000" />
       <workItem from="1598116501458" duration="2956000" />
-      <workItem from="1598119477632" duration="853000" />
+      <workItem from="1598119477632" duration="6280000" />
     </task>
     <servers />
   </component>
@@ -3202,9 +2810,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="755" y="448" width="399" height="147" key="NewPhpFileDialog" timestamp="1598119585406">
+    <state x="743" y="281" width="424" height="482" key="FileChooserDialogImpl" timestamp="1598123498230">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
-    <state x="755" y="448" width="399" height="147" key="NewPhpFileDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1598119585406" />
+    <state x="743" y="281" width="424" height="482" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1598123498230" />
+    <state x="755" y="448" width="399" height="147" key="NewPhpFileDialog" timestamp="1598123416196">
+      <screen x="0" y="0" width="1920" height="1046" />
+    </state>
+    <state x="755" y="448" width="399" height="147" key="NewPhpFileDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1598123416196" />
   </component>
 </project>

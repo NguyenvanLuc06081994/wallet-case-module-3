@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('wallet.html.index');
 });
+
+Route::prefix('incomes')->group(function (){
+    Route::get('/','IncomeController@getAll')->name('incomes.list');
+    Route::get('/add','IncomeController@showFormAdd')->name('incomes.showFormAdd');
+    Route::post('/add','IncomeController@add')->name('incomes.add');
+});
