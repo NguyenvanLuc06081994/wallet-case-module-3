@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTableOutcomes extends Migration
+class CreateTableWallets extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,12 @@ class CreateTableOutcomes extends Migration
      */
     public function up()
     {
-        Schema::create('outcomes', function (Blueprint $table) {
+        Schema::create('wallets', function (Blueprint $table) {
             $table->id();
             $table->bigInteger('money');
-            $table->date('date');
-            $table->unsignedBigInteger('category_id');
-            $table->foreign('category_id')->references('id')->on('categories');
+            $table->unsignedBigInteger('user_id');
             $table->timestamps();
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 
@@ -30,6 +29,6 @@ class CreateTableOutcomes extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('outcomes');
+        Schema::dropIfExists('wallets');
     }
 }

@@ -11,17 +11,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d77729e-c04c-4785-9066-73e113e0e636" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/category/add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/category/list.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/front/list.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/outcome/add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/outcome/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/outcome/list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/WalletController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Walllet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_03_170741_create_table_wallets.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_03_171002_create_table_cageories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_03_173147_create_table_transactions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/wallet/html/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/wallet/html/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IncomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/OutcomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Incategory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Income.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Outcome.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_22_072025_create_table_incomes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_22_075637_create_table_categories.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_22_080612_create_table_outcomes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_22_081050_add_column_date_to_incomes_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_22_180011_create_table_details.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_22_182231_create_table_category_in.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_22_182504_add_column_incategories_to_incomes_table.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,16 +151,20 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1gRbkUCkepFADODWz7ucHdZjk28" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -183,6 +197,8 @@
       <workItem from="1598146127504" duration="3279000" />
       <workItem from="1598166226839" duration="4750000" />
       <workItem from="1598198628961" duration="2641000" />
+      <workItem from="1599152891785" duration="2310000" />
+      <workItem from="1599229197605" duration="929000" />
     </task>
     <servers />
   </component>
@@ -200,6 +216,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="743" y="281" width="424" height="482" key="FileChooserDialogImpl" timestamp="1598123498230">
