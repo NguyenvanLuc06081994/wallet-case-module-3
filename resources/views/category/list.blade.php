@@ -7,7 +7,8 @@
                 <thead class="thead-dark">
                 <tr>
                     <th scope="col">STT</th>
-                    <th scope="col">Money</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Type</th>
                     <th scope="col" colspan="2">Action</th>
                 </tr>
                 </thead>
@@ -17,6 +18,7 @@
                     <tr>
                         <th scope="row">{{++$key}}</th>
                         <td>{{$category->name}}</td>
+                        <td>{{$category->type}}</td>
                         <td><a href="" class="btn btn-primary"><i class="fas fa-edit"></i></a></td>
                         <td><a href="" class="btn btn-danger"><i class="fas fa-trash"></i></a></td>
                     </tr>
