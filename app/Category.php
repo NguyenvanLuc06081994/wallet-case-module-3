@@ -8,4 +8,8 @@ class Category extends Model
 {
     protected $table= 'categories';
 
+    public function transactions(){
+        return $this->hasMany(Transaction::class,'category_id','id');
+    }
+
 }

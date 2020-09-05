@@ -11,18 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d77729e-c04c-4785-9066-73e113e0e636" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/transaction/add.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/transaction/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/transaction/list.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/category/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/category/add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/category/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/category/list.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/income/add.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/income/list.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/outcome/add.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/outcome/edit.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/outcome/list.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TransactionControlller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TransactionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WalletController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WalletController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Transaction.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transaction.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Walllet.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Wallet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/transaction/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/transaction/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/transaction/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/transaction/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/transaction/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/transaction/list.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/wallet/html/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/wallet/html/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -192,7 +190,7 @@
       <workItem from="1598198628961" duration="2641000" />
       <workItem from="1599152891785" duration="2310000" />
       <workItem from="1599229197605" duration="3537000" />
-      <workItem from="1599274430539" duration="1060000" />
+      <workItem from="1599274430539" duration="5739000" />
     </task>
     <servers />
   </component>
@@ -215,6 +213,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="268" y="145" key="#Live_Templates" timestamp="1599276361440">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="268" y="145" key="#Live_Templates/0.0.2048.1112@0.0.2048.1112" timestamp="1599276361440" />
     <state x="743" y="281" width="424" height="482" key="FileChooserDialogImpl" timestamp="1598123498230">
       <screen x="0" y="0" width="1920" height="1046" />
     </state>
@@ -224,9 +226,10 @@
     </state>
     <state x="755" y="448" width="399" height="147" key="NewPhpFileDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1598200555284" />
     <state x="805" y="476" key="NewPhpFileDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1599275344807" />
-    <state x="623" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1598148980593">
-      <screen x="0" y="0" width="1920" height="1046" />
+    <state x="665" y="246" width="717" height="721" key="search.everywhere.popup" timestamp="1599293617136">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="623" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1046@0.0.1920.1046" timestamp="1598148980593" />
+    <state x="665" y="246" width="717" height="721" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1599293617136" />
   </component>
 </project>

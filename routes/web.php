@@ -24,6 +24,11 @@ Route::prefix('admin')->group(function (){
     });
 Route::prefix('transactions')->group(function (){
     Route::get('/','TransactionController@getAll')->name('transactions.list');
+    Route::get('/add','TransactionController@showFormAdd')->name('transactions.showFormAdd');
+    Route::post('/add','TransactionController@addTransaction')->name('transactions.addTransaction');
+    Route::get('/{id}/edit','TransactionController@showFormEdit')->name('transactions.showFormEdit');
+    Route::post('/{id}/edit','TransactionController@Edit')->name('transactions.Edit');
+    Route::get('/{id}/delete','TransactionController@delete')->name('transactions.delete');
 });
 });
 
