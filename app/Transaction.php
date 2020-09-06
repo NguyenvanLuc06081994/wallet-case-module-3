@@ -11,4 +11,9 @@ class Transaction extends Model
     public function category(){
         return $this->belongsTo(Category::class, 'category_id','id');
     }
+
+    public function wallet()
+    {
+        return $this->belongsTo(Wallet::class,'wallet_id','id');
+    }
 }

@@ -11,16 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d77729e-c04c-4785-9066-73e113e0e636" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/AuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/chart/chart.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/user/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TransactionControlller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TransactionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WalletController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WalletController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TransactionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TransactionController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Transaction.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Transaction.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Walllet.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Wallet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/transaction/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/transaction/add.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/transaction/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/transaction/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/transaction/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/transaction/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Wallet.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Wallet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_03_173147_create_table_transactions.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_03_173147_create_table_transactions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/wallet/html/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/wallet/html/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -32,6 +33,14 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -153,19 +162,21 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Moblie-Shope" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nvluc\php\wallet-case-module-3\public" />
       <recent name="$PROJECT_DIR$/resources/views/category" />
       <recent name="$PROJECT_DIR$/resources/views/income" />
       <recent name="$PROJECT_DIR$/public/assets" />
       <recent name="$PROJECT_DIR$/resources/views/wallet" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunManager">
@@ -190,7 +201,8 @@
       <workItem from="1598198628961" duration="2641000" />
       <workItem from="1599152891785" duration="2310000" />
       <workItem from="1599229197605" duration="3537000" />
-      <workItem from="1599274430539" duration="5739000" />
+      <workItem from="1599274430539" duration="11434000" />
+      <workItem from="1599359505106" duration="4823000" />
     </task>
     <servers />
   </component>
@@ -217,15 +229,22 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="268" y="145" key="#Live_Templates/0.0.2048.1112@0.0.2048.1112" timestamp="1599276361440" />
-    <state x="743" y="281" width="424" height="482" key="FileChooserDialogImpl" timestamp="1598123498230">
-      <screen x="0" y="0" width="1920" height="1046" />
-    </state>
-    <state x="743" y="281" width="424" height="482" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1598123498230" />
-    <state x="805" y="476" width="399" height="147" key="NewPhpFileDialog" timestamp="1599275344807">
+    <state x="634" y="296" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599295894004">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
+    <state x="634" y="296" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1599295894004" />
+    <state x="595" y="222" width="332" height="358" key="FileChooserDialogImpl" timestamp="1599359565333">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="595" y="222" width="332" height="358" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599359565333" />
+    <state x="743" y="281" width="424" height="482" key="FileChooserDialogImpl/0.0.1920.1046@0.0.1920.1046" timestamp="1598123498230" />
+    <state x="793" y="299" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1599294328251" />
+    <state x="604" y="353" width="300" height="150" key="NewPhpFileDialog" timestamp="1599363229717">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="353" width="300" height="150" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1599363229717" />
     <state x="755" y="448" width="399" height="147" key="NewPhpFileDialog/0.0.1920.1046@0.0.1920.1046" timestamp="1598200555284" />
-    <state x="805" y="476" key="NewPhpFileDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1599275344807" />
+    <state x="805" y="476" key="NewPhpFileDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1599294672950" />
     <state x="665" y="246" width="717" height="721" key="search.everywhere.popup" timestamp="1599293617136">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

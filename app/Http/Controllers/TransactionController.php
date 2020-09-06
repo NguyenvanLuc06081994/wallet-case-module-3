@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Category;
 use App\Transaction;
+use App\Wallet;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class TransactionController extends Controller
 {
@@ -25,12 +27,21 @@ class TransactionController extends Controller
 
     public function addTransaction(Request $request)
     {
+        $user = Auth::user();
+        $wallet = Wallet::find($user->wallet->id);
         $transaction = new Transaction();
         $transaction->money = $request->money;
         $transaction->transaction_at = $request->transaction_at;
         $transaction->category_id = $request->category_id;
         $transaction->description = $request->description;
+        $transaction->wallet_id = $user->wallet->id;
+        if ($transaction->category->type == 'in'){
+            $wallet->money += $request->money;
+        }else{
+            $user->wallet->money -= $request->money;
+        }
         $transaction->save();
+        $wallet->save();
         return redirect()->route('transactions.list');
     }
 
@@ -57,5 +68,10 @@ class TransactionController extends Controller
         $transaction = Transaction::find($id);
         $transaction->delete();
         return redirect()->route('transactions.list');
+    }
+
+    public function getChart()
+    {
+        return view('chart.chart');
     }
 }

@@ -16,10 +16,12 @@ class CreateTableTransactions extends Migration
         Schema::create('transactions', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('category_id');
+            $table->unsignedBigInteger('wallet_id');
             $table->bigInteger('money');
             $table->date('transaction_at');
             $table->timestamps();
             $table->foreign('category_id')->references('id')->on('categories');
+            $table->foreign('wallet_id')->references('id')->on('wallets');
         });
     }
 

@@ -37,8 +37,8 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function wallets()
+    public function wallet()
     {
-        return $this->hasMany(Wallet::class,'user_id','id');
+        return $this->hasOne(Wallet::class,'user_id','id');
     }
 }

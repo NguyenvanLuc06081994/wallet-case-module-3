@@ -96,7 +96,8 @@
                         <!-- Profile -->
                         <!-- ============================================================== -->
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-dark" href="#"><img src="../assets/images/users/1.jpg" alt="user" class="profile-pic" /></a>
+                            <a class="nav-link waves-effect waves-dark" href="#"><img src="../assets/images/users/1.jpg" alt="user" class="profile-pic" />{{\Illuminate\Support\Facades\Auth::user()->username}}</a>
+                            <a href="{{route('auth.logout')}}">Logout</a>
                         </li>
                     </ul>
                 </div>
