@@ -35,6 +35,8 @@ Route::prefix('transactions')->group(function (){
     Route::post('/{id}/edit','TransactionController@Edit')->name('transactions.Edit');
     Route::get('/{id}/delete','TransactionController@delete')->name('transactions.delete');
     Route::get('/chart','TransactionController@getChart')->name('transactions.chart');
+    Route::get('/chartOut','TransactionController@getChartOut')->name('transactions.chartOut');
+    Route::get('/chartByCategory','TransactionController@getTransactionsByCategory')->name('transactions.chartByCategory');
     Route::get('/show','TransactionController@showChart')->name('transactions.show');
     Route::get('/list','TransactionController@getAllTransactions')->name('transactions.getAll');
 

@@ -17,7 +17,8 @@ class TransactionController extends Controller
 
     public function getAll()
     {
-        $transactions = Transaction::all();
+
+        $transactions = Transaction::select('*')->orderBy('transaction_at', 'asc')->get();
         $categories = Category::all();
         return view('transaction.list', compact('transactions', 'categories'));
     }
@@ -108,6 +109,35 @@ class TransactionController extends Controller
         ]);
     }
 
+    public function getChartOut()
+    {
+        $transactions = DB::table('transactions')->whereBetween('transaction_at', ['20200101', '20201231'])->orderBy('transaction_at')->get();
+        $result = [];
+        $categories = Category::all();
+        foreach ($transactions as $transaction) {
+            foreach ($categories as $category) {
+                if ($transaction->category_id == $category->id) {
+                    if ($category->type == 'out') {
+                        $key = date('d-m', strtotime($transaction->transaction_at));
+                        if (!isset($result[$key])) {
+                            $result[$key] = $transaction->money;
+                        } else {
+                            $result[$key] += $transaction->money;
+                        }
+                    }
+                }
+            }
+
+        }
+        return response([
+            'status' => 1,
+            'data' => [
+                'label' => array_keys($result),
+                'data' => array_values($result)
+            ]
+        ]);
+    }
+
     public function getAllTransactions()
     {
         $transactions = Transaction::all();
@@ -121,5 +151,35 @@ class TransactionController extends Controller
             }
         }
         return view('chart.list', compact('transactions', 'totalIn', 'totalOut'));
+    }
+
+    public function getTransactionsByCategory()
+    {
+        $transactions = DB::table('transactions')->whereBetween('transaction_at', ['20200101', '20201231'])->orderBy('transaction_at')->get();
+        $result = [];
+        $categories = Category::all();
+        foreach ($transactions as $transaction) {
+            foreach ($categories as $category) {
+                if ($transaction->category_id == $category->id) {
+                    if ($category->type == 'out') {
+                        $key = $category->name;
+                        if (!isset($result[$key])) {
+                            $result[$key] = $transaction->money;
+                        } else {
+                            $result[$key] += $transaction->money;
+                        }
+                    }
+                }
+            }
+        }
+        return response(
+          [
+              'status'=>200,
+              'data'=>[
+                  'label'=> array_keys($result),
+                  'data'=> array_values($result)
+              ]
+          ]
+        );
     }
 }

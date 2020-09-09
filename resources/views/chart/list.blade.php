@@ -19,13 +19,16 @@
                 <td><a href="{{route('transactions.showFormEdit',$transaction->id)}}">{{$transaction->category->name}}</a></td>
                 <td>{{$transaction->category->type}}</td>
                 <td>{{$transaction->description}}</td>
-                <td>{{$transaction->money}}</td>
+                <td>{{number_format("$transaction->money",0,",",".")}} VND</td>
+
 
             </tr>
             @endif
             @endforeach
             <tr>
-                <td colspan="5" style="text-align: left">Total: {{$totalIn}}</td>
+                <td colspan="3"></td>
+                <td style="text-align: right">Total :</td>
+                <td>{{number_format("$totalIn",0,",",".")}} VND</td>
             </tr>
             </tbody>
         </table>
@@ -49,13 +52,14 @@
                         <td><a href="{{route('transactions.showFormEdit',$transaction->id)}}">{{$transaction->category->name}}</a></td>
                         <td>{{$transaction->category->type}}</td>
                         <td>{{$transaction->description}}</td>
-                        <td>{{$transaction->money}}</td>
-
+                        <td>{{number_format("$transaction->money",0,",",".")}} VND</td>
                     </tr>
                 @endif
             @endforeach
             <tr>
-                <td colspan="5" style="text-align: left">Total: {{$totalOut}}</td>
+                <td colspan="3"></td>
+                <td style="text-align: right">Total :</td>
+                <td>{{number_format("$totalOut",0,",",".")}} VND</td>x`
             </tr>
             </tbody>
         </table>

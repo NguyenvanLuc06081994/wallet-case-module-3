@@ -10,6 +10,7 @@
                     <th scope="col">Money</th>
                     <th scope="col">Date</th>
                     <th scope="col">Category</th>
+                    <th scope="col">Type</th>
                     <th scope="col" colspan="2">Action</th>
                 </tr>
                 </thead>
@@ -18,9 +19,12 @@
                 @forelse($transactions as $key => $transaction)
                     <tr>
                         <th scope="row">{{++$key}}</th>
-                        <td>{{$transaction->money}}</td>
+{{--                        {{$transaction->money}}--}}
+                        <td>{{number_format("$transaction->money",0,",",".")}} VND</td>
+
                         <td>{{$transaction->transaction_at}}</td>
                         <td>{{$transaction->category->name}}</td>
+                        <td>{{$transaction->category->type}}</td>
                         <td><a href="{{route('transactions.showFormEdit',$transaction->id)}}" class="btn btn-primary"><i class="fas fa-edit"></i></a></td>
                         <td><a href="{{route('transactions.delete',$transaction->id)}}" onclick="return confirm('are you sure?')" class="btn btn-danger"><i class="fas fa-trash"></i></a></td>
                     </tr>
