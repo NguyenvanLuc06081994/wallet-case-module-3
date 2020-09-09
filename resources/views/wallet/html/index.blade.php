@@ -32,9 +32,14 @@
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
 <![endif]-->
 </head>
-
+<style>
+    .table{
+        color: black;
+    }
+</style>
 <body class="fix-header fix-sidebar card-no-border">
     <!-- ============================================================== -->
     <!-- Preloader - style you can find in spinners.css -->
@@ -96,7 +101,7 @@
                         <!-- Profile -->
                         <!-- ============================================================== -->
                         <li class="nav-item">
-                            <a class="nav-link waves-effect waves-dark" href="#"><img src="../assets/images/users/1.jpg" alt="user" class="profile-pic" />{{\Illuminate\Support\Facades\Auth::user()->username}}</a>
+                            <a class="nav-link waves-effect waves-dark" href="#"><img src="../assets/images/users/1.jpg" alt="user" class="profile-pic" />{{\Illuminate\Support\Facades\Auth::user() ? \Illuminate\Support\Facades\Auth::user()->username : ''}}</a>
                             <a href="{{route('auth.logout')}}">Logout</a>
                         </li>
                     </ul>
@@ -118,8 +123,8 @@
                         <li> <a class="waves-effect waves-dark" href="index.blade.php" aria-expanded="false"><i class="mdi mdi-gauge"></i><span class="hide-menu">Dashboard</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="{{route('categories.list')}}" aria-expanded="false"><i class="mdi mdi-account-check"></i><span class="hide-menu">Category</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="{{route('transactions.list')}}" aria-expanded="false"><i class="mdi mdi-table"></i><span class="hide-menu">Transaction</span></a></li>
-                        <li> <a class="waves-effect waves-dark" href="icon-material.html" aria-expanded="false"><i class="mdi mdi-emoticon"></i><span class="hide-menu">Icons</span></a></li>
-                        <li> <a class="waves-effect waves-dark" href="map-google.html" aria-expanded="false"><i class="mdi mdi-earth"></i><span class="hide-menu">Map</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="{{route('wallets.list')}}" aria-expanded="false"><i class="mdi mdi-emoticon"></i><span class="hide-menu">Wallet</span></a></li>
+                        <li> <a class="waves-effect waves-dark" href="{{route('transactions.chart')}}" aria-expanded="false"><i class="mdi mdi-earth"></i><span class="hide-menu">Chart</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="pages-blank.html" aria-expanded="false"><i class="mdi mdi-book-open-variant"></i><span class="hide-menu">Blank</span></a></li>
                         <li> <a class="waves-effect waves-dark" href="pages-error-404.html" aria-expanded="false"><i class="mdi mdi-help-circle"></i><span class="hide-menu">404</span></a></li>
                     </ul>
