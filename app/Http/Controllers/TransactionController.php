@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Category;
 use App\Transaction;
 use App\Wallet;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
@@ -140,7 +141,7 @@ class TransactionController extends Controller
 
     public function getAllTransactions()
     {
-        $transactions = Transaction::all();
+        $transactions = Transaction::select('*')->orderBy('transaction_at')->get();
         $totalIn = 0;
         $totalOut = 0;
         foreach ($transactions as $transaction) {
@@ -173,13 +174,23 @@ class TransactionController extends Controller
             }
         }
         return response(
-          [
-              'status'=>200,
-              'data'=>[
-                  'label'=> array_keys($result),
-                  'data'=> array_values($result)
-              ]
-          ]
+            [
+                'status' => 200,
+                'data' => [
+                    'label' => array_keys($result),
+                    'data' => array_values($result)
+                ]
+            ]
         );
+    }
+
+    public function search(Request $request)
+    {
+        $date1 = $request->date1;
+        $date2 = $request->date2;
+
+        $categories = Category::all();
+       $transactions = DB::table('transactions')->whereBetween('transaction_at',[$date1,$date2])->orderBy('transaction_at','asc')->get();
+       return view('transaction.list', compact('transactions','categories'));
     }
 }

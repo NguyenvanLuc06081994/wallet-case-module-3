@@ -1,9 +1,17 @@
 @extends('wallet.html.index')
 @section('content')
     <div class="container">
+        <div>
+            <form action="{{route('transactions.search')}}" method="post" id="search-transaction">
+                @csrf
+                <input type="date" name="date1" value="">
+                <input type="date" name="date2">
+                <input type="submit" value="Search" id="button-search" class="btn btn-success">
+            </form>
+        </div>
         <a href="{{route('transactions.showFormAdd')}}" class="btn btn-primary mt-3 mb-3">Add new Transaction</a>
         <div>
-            <table class="table table-hover">
+            <table class="table table-hover" id="result">
                 <thead class="thead-dark">
                 <tr>
                     <th scope="col">STT</th>
@@ -19,12 +27,16 @@
                 @forelse($transactions as $key => $transaction)
                     <tr>
                         <th scope="row">{{++$key}}</th>
-{{--                        {{$transaction->money}}--}}
                         <td>{{number_format("$transaction->money",0,",",".")}} VND</td>
 
-                        <td>{{$transaction->transaction_at}}</td>
-                        <td>{{$transaction->category->name}}</td>
-                        <td>{{$transaction->category->type}}</td>
+                        <td>{{$transaction->transaction_at}}</td>@foreach($categories as $category)
+                                @if($category->id == $transaction->category_id)
+                                <td>{{$category->name}}</td>
+                                <td>{{$category->type}}</td>
+                                @endif
+                            @endforeach
+
+
                         <td><a href="{{route('transactions.showFormEdit',$transaction->id)}}" class="btn btn-primary"><i class="fas fa-edit"></i></a></td>
                         <td><a href="{{route('transactions.delete',$transaction->id)}}" onclick="return confirm('are you sure?')" class="btn btn-danger"><i class="fas fa-trash"></i></a></td>
                     </tr>

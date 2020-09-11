@@ -39,6 +39,7 @@ Route::prefix('transactions')->group(function (){
     Route::get('/chartByCategory','TransactionController@getTransactionsByCategory')->name('transactions.chartByCategory');
     Route::get('/show','TransactionController@showChart')->name('transactions.show');
     Route::get('/list','TransactionController@getAllTransactions')->name('transactions.getAll');
+    Route::post('/search','TransactionController@search')->name('transactions.search');
 
 });
 

@@ -6,6 +6,7 @@
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="author" content="">
     <!-- Favicon icon -->
     <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
@@ -193,6 +194,7 @@
     <script src="../assets/plugins/c3-master/c3.min.js"></script>
     <!-- Chart JS -->
     <script src="js/dashboard.js"></script>
+<script src="myjs/my.js"></script>
 </body>
 
 </html>
